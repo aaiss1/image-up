@@ -14,7 +14,6 @@ const Modal = ({ selectedImg, setSelectedImg }) => {
         }
     })
 
-    console.log("Hi", selectedImg)
     const handleClick = (e) => {
         if(e.target.classList.contains('backdrop')) {
             setSelectedImg(null);
