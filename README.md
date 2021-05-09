@@ -1,3 +1,20 @@
+## Image Up!
+
+App deployed here: https://image-upload-app.herokuapp.com/
+Please go ahead and try uploading your own images!
+**Note:** I had issues with deploying my labelling feature to Heroku, but it works locally - I would love to show you!
+
+**Description:** Image Up is an image repository app built with React, Express, and Google Cloud. Google Firebase and Firestore are used to store images, and Google's Cloud Vision API returns labels on the images, which are displayed to the user.
+
+This app can:
+
+* Upload images to Google Firestore and display them to user.
+* Click on an image to see a full size version and the Vision API labels.
+* Animations like upload progress bar based on actual image upload percentage.
+
+**Next step:** Add a search feature based on the Vision API labels.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
