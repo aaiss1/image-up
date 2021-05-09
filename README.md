@@ -1,8 +1,7 @@
 ## Image Up!
 
-App deployed here: https://image-upload-app.herokuapp.com/
-Please go ahead and try uploading your own images!
-**Note:** I had issues with deploying my labelling feature to Heroku, but it works locally - I would love to show you!
+**App deployed here: https://image-upload-app.herokuapp.com/**<br />
+**Note:** I had issues with deploying my Vision API labelling feature to Heroku, but the code works locally and is in this repo - I would love to show you!<br />
 
 **Description:** Image Up is an image repository app built with React, Express, and Google Cloud. Google Firebase and Firestore are used to store images, and Google's Cloud Vision API returns labels on the images, which are displayed to the user.
 
