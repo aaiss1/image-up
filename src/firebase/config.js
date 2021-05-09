@@ -2,7 +2,7 @@ import firebase from 'firebase/app'
 import 'firebase/storage';
 import 'firebase/firestore';
 
-// Your web app's Firebase configuration
+// Your web app's Firebase configuration (would all be env vars for security purposes)
 var firebaseConfig = {
     apiKey: process.env.API_KEY,
     authDomain: process.env.AUTH_DOMAIN,

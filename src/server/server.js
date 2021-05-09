@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 4000;
 
-const keyFilename = './src/server/keys.json';
+const keyFilename = './keys.json'; // this is not pushed to github for obvious reasons
 
 app.use(cors());
 

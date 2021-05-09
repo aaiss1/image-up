@@ -9,7 +9,6 @@
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.21.1",
     "cors": "^2.8.5",
-    "dotenv": "^9.0.0",
     "express": "^4.17.1",
     "firebase": "^8.5.0",
     "framer-motion": "^4.1.11",
@@ -19,13 +18,10 @@
     "serve": "^11.3.2"
   },
   "scripts": {
-    "dev": "node ./src/server/server.js & react-scripts start",
-    "server": "node ./src/server/server.js",
-    "start": "serve -s build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
     }, 
   "eslintConfig": {
     "extends": "react-app"
