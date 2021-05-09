@@ -5,7 +5,7 @@
 
 **Description:** Image Up is an image repository app built in Node.js with React, Express, and Google Cloud. Google Firebase and Firestore are used to store images, and Google's Cloud Vision API returns labels on the images, which are displayed to the user.
 
-This app can:
+App features:
 
 * Upload images to Google Firestore and display them to user.
 * Click on an image to see a full size version and the Vision API labels.
